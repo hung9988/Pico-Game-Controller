@@ -31,19 +31,19 @@ const uint8_t SW_KEYCODE[] = {
 };
 const uint8_t SW_GPIO[] = {
     27,
-    21,
-    20,
-    16,
+    28,
     29,
-    17,
-    1,
-    8,
-    13,
+    26,
+    12,
+    15,
+    10,
+    11,
+    22,
 };
-const uint8_t LED_GPIO[] = {15};
-const uint8_t ENC_GPIO[] = {6, 9, 0, 3}; // L_ENC(0, 1); R_ENC(2, 3)
-const bool ENC_REV[] = {false, true};    // Reverse Encoders
-const uint8_t WS2812B_GPIO = 18;
+const uint8_t LED_GPIO[] = {16};
+const uint8_t ENC_GPIO[] = {7, 6, 0, 1}; // L_ENC(0, 1); R_ENC(2, 3)
+const bool ENC_REV[] = {false, false};   // Reverse Encoders
+const uint8_t WS2812B_GPIO = 14;
 
 #endif
 

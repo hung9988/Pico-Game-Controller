@@ -41,7 +41,7 @@ uint64_t reactive_timeout_timestamp;
 void (*ws2812b_mode)();
 void (*loop_mode)();
 uint16_t (*debounce_mode)();
-bool joy_mode_check = true;
+bool joy_mode_check;
 
 lights_report_t lights_report;
 report_t report;
